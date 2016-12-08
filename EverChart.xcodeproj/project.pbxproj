@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E21F231CA8FD79009A885D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F221CA8FD79009A885D /* main.m */; };
+		50E21F261CA8FD79009A885D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F251CA8FD79009A885D /* AppDelegate.m */; };
+		50E21F291CA8FD79009A885D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F281CA8FD79009A885D /* ViewController.m */; };
+		50E21F2C1CA8FD79009A885D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E21F2A1CA8FD79009A885D /* Main.storyboard */; };
+		50E21F2E1CA8FD79009A885D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E21F2D1CA8FD79009A885D /* Assets.xcassets */; };
+		50E21F311CA8FD7A009A885D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E21F2F1CA8FD79009A885D /* LaunchScreen.storyboard */; };
+		50E21F531CA8FED5009A885D /* AreaChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F3A1CA8FED5009A885D /* AreaChartModel.m */; };
+		50E21F541CA8FED5009A885D /* CandleChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F3C1CA8FED5009A885D /* CandleChartModel.m */; };
+		50E21F551CA8FED5009A885D /* Chart.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F3E1CA8FED5009A885D /* Chart.m */; };
+		50E21F571CA8FED5009A885D /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F431CA8FED5009A885D /* ChartModel.m */; };
+		50E21F581CA8FED5009A885D /* ColumnChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F451CA8FED5009A885D /* ColumnChartModel.m */; };
+		50E21F5B1CA8FED5009A885D /* indicators.json in Resources */ = {isa = PBXBuildFile; fileRef = 50E21F4A1CA8FED5009A885D /* indicators.json */; };
+		50E21F5C1CA8FED5009A885D /* LineChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F4C1CA8FED5009A885D /* LineChartModel.m */; };
+		50E21F5D1CA8FED5009A885D /* MACDChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F4E1CA8FED5009A885D /* MACDChartModel.m */; };
+		50E21F5E1CA8FED5009A885D /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F501CA8FED5009A885D /* Section.m */; };
+		50E21F5F1CA8FED5009A885D /* YAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F521CA8FED5009A885D /* YAxis.m */; };
+		50E21F631CA90A19009A885D /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50E21F621CA90A19009A885D /* data.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50E21F1E1CA8FD79009A885D /* EverChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E21F221CA8FD79009A885D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E21F241CA8FD79009A885D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50E21F251CA8FD79009A885D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50E21F271CA8FD79009A885D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50E21F281CA8FD79009A885D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50E21F2B1CA8FD79009A885D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E21F2D1CA8FD79009A885D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E21F301CA8FD7A009A885D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E21F321CA8FD7A009A885D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E21F391CA8FED5009A885D /* AreaChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AreaChartModel.h; path = Charts/AreaChartModel.h; sourceTree = "<group>"; };
+		50E21F3A1CA8FED5009A885D /* AreaChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AreaChartModel.m; path = Charts/AreaChartModel.m; sourceTree = "<group>"; };
+		50E21F3B1CA8FED5009A885D /* CandleChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CandleChartModel.h; path = Charts/CandleChartModel.h; sourceTree = "<group>"; };
+		50E21F3C1CA8FED5009A885D /* CandleChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CandleChartModel.m; path = Charts/CandleChartModel.m; sourceTree = "<group>"; };
+		50E21F3D1CA8FED5009A885D /* Chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chart.h; path = Charts/Chart.h; sourceTree = "<group>"; };
+		50E21F3E1CA8FED5009A885D /* Chart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chart.m; path = Charts/Chart.m; sourceTree = "<group>"; };
+		50E21F3F1CA8FED5009A885D /* ChartColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartColor.h; path = Charts/ChartColor.h; sourceTree = "<group>"; };
+		50E21F421CA8FED5009A885D /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartModel.h; path = Charts/ChartModel.h; sourceTree = "<group>"; };
+		50E21F431CA8FED5009A885D /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartModel.m; path = Charts/ChartModel.m; sourceTree = "<group>"; };
+		50E21F441CA8FED5009A885D /* ColumnChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColumnChartModel.h; path = Charts/ColumnChartModel.h; sourceTree = "<group>"; };
+		50E21F451CA8FED5009A885D /* ColumnChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColumnChartModel.m; path = Charts/ColumnChartModel.m; sourceTree = "<group>"; };
+		50E21F4A1CA8FED5009A885D /* indicators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = indicators.json; path = Charts/indicators.json; sourceTree = "<group>"; };
+		50E21F4B1CA8FED5009A885D /* LineChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineChartModel.h; path = Charts/LineChartModel.h; sourceTree = "<group>"; };
+		50E21F4C1CA8FED5009A885D /* LineChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineChartModel.m; path = Charts/LineChartModel.m; sourceTree = "<group>"; };
+		50E21F4D1CA8FED5009A885D /* MACDChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACDChartModel.h; path = Charts/MACDChartModel.h; sourceTree = "<group>"; };
+		50E21F4E1CA8FED5009A885D /* MACDChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACDChartModel.m; path = Charts/MACDChartModel.m; sourceTree = "<group>"; };
+		50E21F4F1CA8FED5009A885D /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Section.h; path = Charts/Section.h; sourceTree = "<group>"; };
+		50E21F501CA8FED5009A885D /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Section.m; path = Charts/Section.m; sourceTree = "<group>"; };
+		50E21F511CA8FED5009A885D /* YAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YAxis.h; path = Charts/YAxis.h; sourceTree = "<group>"; };
+		50E21F521CA8FED5009A885D /* YAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YAxis.m; path = Charts/YAxis.m; sourceTree = "<group>"; };
+		50E21F611CA90354009A885D /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		50E21F621CA90A19009A885D /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E21F1B1CA8FD79009A885D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E21F151CA8FD79009A885D = {
+			isa = PBXGroup;
+			children = (
+				50E21F201CA8FD79009A885D /* EverChart */,
+				50E21F1F1CA8FD79009A885D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E21F1F1CA8FD79009A885D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E21F1E1CA8FD79009A885D /* EverChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E21F201CA8FD79009A885D /* EverChart */ = {
+			isa = PBXGroup;
+			children = (
+				50E21F601CA90333009A885D /* Macro */,
+				50E21F381CA8FEBF009A885D /* Charts */,
+				50E21F241CA8FD79009A885D /* AppDelegate.h */,
+				50E21F251CA8FD79009A885D /* AppDelegate.m */,
+				50E21F271CA8FD79009A885D /* ViewController.h */,
+				50E21F281CA8FD79009A885D /* ViewController.m */,
+				50E21F2A1CA8FD79009A885D /* Main.storyboard */,
+				50E21F2D1CA8FD79009A885D /* Assets.xcassets */,
+				50E21F2F1CA8FD79009A885D /* LaunchScreen.storyboard */,
+				50E21F321CA8FD7A009A885D /* Info.plist */,
+				50E21F211CA8FD79009A885D /* Supporting Files */,
+			);
+			path = EverChart;
+			sourceTree = "<group>";
+		};
+		50E21F211CA8FD79009A885D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E21F621CA90A19009A885D /* data.txt */,
+				50E21F221CA8FD79009A885D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E21F381CA8FEBF009A885D /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				50E21F391CA8FED5009A885D /* AreaChartModel.h */,
+				50E21F3A1CA8FED5009A885D /* AreaChartModel.m */,
+				50E21F3B1CA8FED5009A885D /* CandleChartModel.h */,
+				50E21F3C1CA8FED5009A885D /* CandleChartModel.m */,
+				50E21F3D1CA8FED5009A885D /* Chart.h */,
+				50E21F3E1CA8FED5009A885D /* Chart.m */,
+				50E21F3F1CA8FED5009A885D /* ChartColor.h */,
+				50E21F421CA8FED5009A885D /* ChartModel.h */,
+				50E21F431CA8FED5009A885D /* ChartModel.m */,
+				50E21F441CA8FED5009A885D /* ColumnChartModel.h */,
+				50E21F451CA8FED5009A885D /* ColumnChartModel.m */,
+				50E21F4A1CA8FED5009A885D /* indicators.json */,
+				50E21F4B1CA8FED5009A885D /* LineChartModel.h */,
+				50E21F4C1CA8FED5009A885D /* LineChartModel.m */,
+				50E21F4D1CA8FED5009A885D /* MACDChartModel.h */,
+				50E21F4E1CA8FED5009A885D /* MACDChartModel.m */,
+				50E21F4F1CA8FED5009A885D /* Section.h */,
+				50E21F501CA8FED5009A885D /* Section.m */,
+				50E21F511CA8FED5009A885D /* YAxis.h */,
+				50E21F521CA8FED5009A885D /* YAxis.m */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		50E21F601CA90333009A885D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				50E21F611CA90354009A885D /* UtilsMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E21F1D1CA8FD79009A885D /* EverChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E21F351CA8FD7A009A885D /* Build configuration list for PBXNativeTarget "EverChart" */;
+			buildPhases = (
+				50E21F1A1CA8FD79009A885D /* Sources */,
+				50E21F1B1CA8FD79009A885D /* Frameworks */,
+				50E21F1C1CA8FD79009A885D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverChart;
+			productName = EverChart;
+			productReference = 50E21F1E1CA8FD79009A885D /* EverChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E21F161CA8FD79009A885D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Beijing Byecity International Travel CO., Ltd.";
+				TargetAttributes = {
+					50E21F1D1CA8FD79009A885D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 50E21F191CA8FD79009A885D /* Build configuration list for PBXProject "EverChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E21F151CA8FD79009A885D;
+			productRefGroup = 50E21F1F1CA8FD79009A885D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E21F1D1CA8FD79009A885D /* EverChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E21F1C1CA8FD79009A885D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E21F311CA8FD7A009A885D /* LaunchScreen.storyboard in Resources */,
+				50E21F2E1CA8FD79009A885D /* Assets.xcassets in Resources */,
+				50E21F2C1CA8FD79009A885D /* Main.storyboard in Resources */,
+				50E21F5B1CA8FED5009A885D /* indicators.json in Resources */,
+				50E21F631CA90A19009A885D /* data.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E21F1A1CA8FD79009A885D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E21F551CA8FED5009A885D /* Chart.m in Sources */,
+				50E21F571CA8FED5009A885D /* ChartModel.m in Sources */,
+				50E21F5F1CA8FED5009A885D /* YAxis.m in Sources */,
+				50E21F291CA8FD79009A885D /* ViewController.m in Sources */,
+				50E21F581CA8FED5009A885D /* ColumnChartModel.m in Sources */,
+				50E21F5C1CA8FED5009A885D /* LineChartModel.m in Sources */,
+				50E21F261CA8FD79009A885D /* AppDelegate.m in Sources */,
+				50E21F231CA8FD79009A885D /* main.m in Sources */,
+				50E21F531CA8FED5009A885D /* AreaChartModel.m in Sources */,
+				50E21F5E1CA8FED5009A885D /* Section.m in Sources */,
+				50E21F541CA8FED5009A885D /* CandleChartModel.m in Sources */,
+				50E21F5D1CA8FED5009A885D /* MACDChartModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50E21F2A1CA8FD79009A885D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E21F2B1CA8FD79009A885D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E21F2F1CA8FD79009A885D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E21F301CA8FD7A009A885D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E21F331CA8FD7A009A885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50E21F341CA8FD7A009A885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E21F361CA8FD7A009A885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byecity.development.EverChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50E21F371CA8FD7A009A885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byecity.development.EverChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E21F191CA8FD79009A885D /* Build configuration list for PBXProject "EverChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E21F331CA8FD7A009A885D /* Debug */,
+				50E21F341CA8FD7A009A885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E21F351CA8FD7A009A885D /* Build configuration list for PBXNativeTarget "EverChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E21F361CA8FD7A009A885D /* Debug */,
+				50E21F371CA8FD7A009A885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E21F161CA8FD79009A885D /* Project object */;
+}
