@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502733CD1DF982E900E6C923 /* Screen Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 502733CC1DF982E900E6C923 /* Screen Shot.png */; };
 		50E21F231CA8FD79009A885D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F221CA8FD79009A885D /* main.m */; };
 		50E21F261CA8FD79009A885D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F251CA8FD79009A885D /* AppDelegate.m */; };
 		50E21F291CA8FD79009A885D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E21F281CA8FD79009A885D /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		502733CC1DF982E900E6C923 /* Screen Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot.png"; sourceTree = "<group>"; };
 		50E21F1E1CA8FD79009A885D /* EverChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E21F221CA8FD79009A885D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50E21F241CA8FD79009A885D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		50E21F211CA8FD79009A885D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				502733CC1DF982E900E6C923 /* Screen Shot.png */,
 				50E21F621CA90A19009A885D /* data.txt */,
 				50E21F221CA8FD79009A885D /* main.m */,
 			);
@@ -211,6 +214,7 @@
 				50E21F2E1CA8FD79009A885D /* Assets.xcassets in Resources */,
 				50E21F2C1CA8FD79009A885D /* Main.storyboard in Resources */,
 				50E21F5B1CA8FED5009A885D /* indicators.json in Resources */,
+				502733CD1DF982E900E6C923 /* Screen Shot.png in Resources */,
 				50E21F631CA90A19009A885D /* data.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +384,7 @@
 				50E21F371CA8FD7A009A885D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
