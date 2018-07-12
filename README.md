@@ -35,6 +35,6 @@ An iOS k chart in Objective-C based on chartee. For more information,to see : ht
 #说明
 - k 线图，是在开源库：chartee 基础上修改而成；具体参考：https://github.com/zhiyu/chartee
 
-#微信公众号 ：iOS狗
+#微信公众号 ：汪汪的世界
 ![(WeChat)](https://github.com/YongbaoWang/EverShowPath/blob/master/EverShowPath/wechat_num.jpg)
 
